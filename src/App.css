@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+#sprice{
+    font-size: 18px;
+    color: #f57224;
+}
+.btnSeller{
+  border: 1px solid #f57224;
+  color: #f57224;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+#quantity{
+  height: 10px;
+  border-radius: 10px;
+  width: 100px;
+  background-color: gray;
+  overflow: hidden;
+}
+#quantityItem{
+  width: 100px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.btnSeller:disabled{
+  background-color: gray;
+  color: black;
+  border: gray;
+}
+.btnSeller.disableCus{
+  cursor: no-drop;
+}
